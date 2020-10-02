@@ -1,13 +1,13 @@
-.kleur4 {
+#kleur4 {
      background-color: #8ABB55; 
     }
 
-.kleur1 {
+#kleur1 {
     background-color: plum;
 }
-.kleur2 {
+#kleur2 {
     background-color: rebeccapurple;
 }
-.kleur3 {
+#kleur3 {
     background-color: salmon;
 }
