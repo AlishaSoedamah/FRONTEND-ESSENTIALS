@@ -6,6 +6,6 @@ let student = {
     ikMagBrommerRijden: true ,
     SoftwareOntwikkeling: true
 }
-console.log(student);
+console.log(student.leeftijd);
 
 
