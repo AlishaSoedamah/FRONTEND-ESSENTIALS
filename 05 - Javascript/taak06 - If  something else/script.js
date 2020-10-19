@@ -1,9 +1,9 @@
-let stopLichtKleur = "rood";
+let stopLichtKleur = "x";
 
-if (stopLichtKleur==rood){
+if (stopLichtKleur==x){
 
     alert("Jij moet stoppen voor het stoplicht")
-} 
+}
 else{
     alert("Je mag doorrijden.")
 }
