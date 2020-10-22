@@ -1,6 +1,6 @@
-let stopLichtKleur = "x";
+let stopLichtKleurRood = true;
 
-if (stopLichtKleur==x){
+if (stopLichtKleurRood == true){
 
     alert("Jij moet stoppen voor het stoplicht")
 }
