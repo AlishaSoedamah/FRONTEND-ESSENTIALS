@@ -6,30 +6,40 @@
 #container{
     width: 800px;
     height: 500px;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 212, 212);
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
-#one{
-    width: 200px;
-    height: 25%;
-    background-color: rgb(255, 0, 0);
+#rightup{
+    display: inline-block;
+    width: 33.3%;
+    height: 44.1%;
+    background-color: rgb(250, 0, 0);
+    border-right: 60px solid rgb(255, 255, 255);
+    border-bottom: 60px solid rgb(255, 255, 255);
 }
-#two{
-    width: 200px;
-    height: 25%;
-    background-color: rgb(255, 0, 0);
+#leftup{
+    display: inline-block;
+    width: 50%;
+    height: 44.1%;
+    background-color: rgb(250, 0, 187);
+    border-bottom: 60px solid rgb(255, 255, 255);
 }
-#three{
-    width: 200px;
-    height: 25%;
-    background-color: rgb(255, 0, 0);
+#rightunder{
+    display: inline-block;
+    width: 33.3%;
+    height: 44.1%;
+    background-color: rgb(0, 129, 250);
+    border-right: 60px solid rgb(255, 255, 255);
 }
-#four{
-    width: 200px;
-    height: 25%;
-    background-color: rgb(255, 0, 0);
+#leftunder{
+    display: inline-block;
+    width: 50%;
+    height: 44.1%;
+    background-color: rgb(0, 250, 42);
 }
+
+
 
