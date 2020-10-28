@@ -1,0 +1,35 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    width: 800px;
+    height: 40.5%;
+    background-color: rgb(255, 0, 0);
+}
+#horizontaal{
+    width:800px;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    border-top: 10px solid rgb(255, 255, 255); 
+    border-bottom: 10px solid rgb(255, 255, 255); 
+}
+#verticaal{
+}
+
+#onderkant{
+    width: 800px;
+    height: 40.5%;
+    background-color: rgb(255, 0, 0);
+}
+
