@@ -1,0 +1,22 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#boven{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(29, 250, 0);
+}
+#rechthoek{
+    
+}
