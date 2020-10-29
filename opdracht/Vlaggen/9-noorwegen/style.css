@@ -78,6 +78,8 @@
     position: relative;
     background-color: #fff;
 }
+
+
 #leftunder:after {
     position: absolute;
     top: 15px;
