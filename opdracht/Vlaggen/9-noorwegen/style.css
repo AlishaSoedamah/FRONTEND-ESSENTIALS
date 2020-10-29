@@ -17,24 +17,22 @@
     width: 33.3%;
     height: 44%;
     background-color: rgb(250, 0, 0);
-    border-right: 60px solid rgb(255, 255, 255);
-    border-bottom: 60px solid rgb(255, 255, 255);
+    border-right: 60px solid rgb(9, 17, 136);
+    border-bottom: 60px solid rgb(9, 17, 136);
 }
-
-
 #leftup{
     display: inline-block;
     width: 59.2%;
     height: 44%;
     background-color: rgb(250, 0, 0);
-    border-bottom: 60px solid rgb(255, 255, 255);
+    border-bottom: 60px solid rgb(9, 17, 136);
 }
 #rightunder{
     display: inline-block;
     width: 33.3%;
     height: 44%;
     background-color: rgb(250, 0, 0);
-    border-right: 60px solid rgb(255, 255, 255);
+    border-right: 60px solid rgb(9, 17, 136);
 }
 #leftunder{
     display: inline-block;
