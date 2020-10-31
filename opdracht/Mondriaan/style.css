@@ -98,6 +98,32 @@ div{
         width: 40%;
     }
 
+    .square {
+        height: 175px;
+        width: 200px;
+        background-color: #fff;
+        position: absolute;
+        left: 607.5px;
+        top: 209px;
+    }
+
+    .s {
+        height: 148px;
+        width: 200px;
+        background-color: red;
+        position: absolute;
+        left: 607.5px;
+        top: 398px;
+    }
+
+    .q {
+        height: 148px;
+        width: 220px;
+        background-color: yellow;
+        position: absolute;
+        left: 237.5px;
+        top: 398px;
+    }
 /* Rechtskant tweede rij */
 #rechts-rij-twee{
     height: 22%;
@@ -116,4 +142,19 @@ div{
     width: 100%;
 }
 
-
+.w {
+    height: 247px;
+    width: 179px;
+    background-color: #fff;
+    position: absolute;
+    left: 442px;
+    top: 560px;
+}
+.u {
+    height: 148px;
+    width: 187.5px;
+    background-color: yellow;
+    position: absolute;
+    left: 620px;
+    top: 560px;
+}
