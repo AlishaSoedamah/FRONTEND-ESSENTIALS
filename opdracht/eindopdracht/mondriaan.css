@@ -64,7 +64,7 @@ div{
 }
 
 #links-boven{
-    width: 100%;
+    width: 101%;
     height: 25%;
 }
 #links-midden{
@@ -72,7 +72,7 @@ div{
     height: 50%;
 }
 #links-beneden{
-    width: 100%;
+    width: 101%;
     height: 25%;
 }
 
@@ -89,7 +89,7 @@ div{
 }
 
     #rechts-rij-een-links{
-        height: 100%;
+        height: 101%;
         width: 60%;
     }
 
@@ -107,19 +107,17 @@ div{
         top: 209px;
     }
 
-    .s {
+    #rechts-rij-twee-drie{
         height: 148px;
         width: 200px;
-        background-color: red;
         position: absolute;
         left: 607.5px;
         top: 398px;
     }
 
-    .q {
-        height: 148px;
+    #rechts-rij-drie-een {
+       height: 148px;
         width: 220px;
-        background-color: yellow;
         position: absolute;
         left: 237.5px;
         top: 398px;
@@ -141,8 +139,7 @@ div{
     height: 31%;
     width: 100%;
 }
-
-.w {
+#rechts-rij-drie-twee{
     height: 247px;
     width: 179px;
     background-color: #fff;
@@ -150,10 +147,9 @@ div{
     left: 442px;
     top: 560px;
 }
-.u {
+#rechts-rij-vier-twee{
     height: 148px;
     width: 187.5px;
-    background-color: yellow;
     position: absolute;
     left: 620px;
     top: 560px;
