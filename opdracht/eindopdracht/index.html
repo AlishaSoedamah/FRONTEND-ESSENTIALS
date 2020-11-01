@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Alisha Soedamah</h1>
+    <a href="Vlaggen">Vlaggen</a>
     <a href="MONDRIAAN.html">Mondriaan</a>
     <div class="container status">
         
@@ -22,8 +23,9 @@
         </div>
         <div class="response"></div>
     </div>
-    <table class="t">
-        <thead class="t">
+
+    <table class="tableColors">
+        <thead>
             <tr>
             <td>Voornaam</td> 
             <td>Achternaam</td>
@@ -34,23 +36,24 @@
         </thead>
         <tbody>
             <tr>
-            <td>na</td>
-            <td>h</td>
-            <td>be</td>
-            <td>ka</td>
-            <td>aa</td>
-        </tr>
+                <td id="voornaam"></td>
+                <td id="achternaam"></td>
+                <td id="leeftijd"></td>
+                <td id="email"></td>
+                <td id="woonplaats"></td>
+            </tr>
         </tbody>
     </table>
     
     <script>
         let bezoeker = {
-            voornaam : prompt("Wat is je naam?"),
             achternaam : prompt("Wat is je achternaam?"),
             leeftijd : prompt("Wat is je leeftijd?"),
             email : prompt("Wat is je email"),
             woonplaats : prompt("Wat is je woonplaats")
         };
+
+
         console.log(bezoeker);
     </script>
 

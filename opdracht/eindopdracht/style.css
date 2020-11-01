@@ -27,6 +27,18 @@
 #sixteen{
     background-color: orange;
 }
-.t {
+#seventeen{
+    background-color: blue;
+}
+#eighteen{
+    background-color: gold;
+}
+#nineteen{
+    background-color: green;
+}
+#anything{
+    background-color: hotpink;
+}
+.tableColors {
     border: 1px solid black;
   }

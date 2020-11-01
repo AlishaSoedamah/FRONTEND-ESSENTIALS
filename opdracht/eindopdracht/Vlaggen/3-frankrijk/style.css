@@ -1,0 +1,36 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    display:flex;
+        flex-direction: row-reverse;
+}
+
+/* Hieronder kun je gaan editen */
+
+#bovenkant{
+    display: inline-block;
+    width: 800px;
+    height: 100%;
+    background-color: rgb(192, 5, 5);
+}
+#midden{
+    display: inline-block;
+    width:800px;
+    height: 100%;
+    background-color: white;
+}
+
+#onderkant{
+    display: inline-block;
+    width: 800px;
+    height: 100%;
+    background-color: rgb(0, 78, 194);
+}
+
