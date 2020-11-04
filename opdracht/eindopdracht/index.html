@@ -74,6 +74,14 @@
         let achternaamElement = document.querySelector('#achternaam')
         achternaamElement.innerHTML = bezoeker.achternaam;
         //leeftijd
+        let leeftijdElement = document.querySelector('#leeftijd')
+        leeftijdElement.innerHTML = bezoeker.leeftijd;
+        //email 
+        let emailElement = document.querySelector('#email')
+        emailElement.innerHTML = bezoeker.email
+        //woonplaats
+        let woonplaatsElement = document.querySelector('#woonplaats')
+        woonplaatsElement.innerHTML =  bezoeker.woonplaats
 
         // Als de leeftijd gelijk is aan 16 dan achtergrond oranje kleuren
         if (bezoeker.leeftijd == 16) {
@@ -94,7 +102,10 @@
         if (bezoeker.leeftijd == 19) {
             document.querySelector("body").style.backgroundColor = 'green'
         }
-    
+        // Als de input null is wordt de achtergrond roze
+        if (bezoeker.leeftijd == 0) {
+            document.querySelector("body").style.backgroundColor= 'pink'
+        }
         
     </script>
 
