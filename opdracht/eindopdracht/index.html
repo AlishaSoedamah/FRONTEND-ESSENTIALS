@@ -12,15 +12,15 @@
     <!--VLAGGEN MENU-->
     <h2>Vlaggen</h2>
     <ul>
-       <li><a href="polen.html">Polen</a></li>
-        <li><a href="NL.html">Nederland</a></li>
-        <li><a href="frankrijk.html">Frankrijk</a></li>
-        <li><a href="col.html">Colombia</a></li>
-        <li><a href="Bot.html">Botswana</a></li>
-        <li><a href="Benin.html">Benin</a></li>
-        <li><a href="chile.html">Chile</a></li>
-        <li><a href="denemarken.html">Denemarken</a></li>
-        <li><a href="noorwegen.html">Noorwegen</a></li>
+        <li><a href="vlaggen/polen.html">Polen</a></li>
+        <li><a href="vlaggen/nederland.html">Nederland</a></li>
+        <li><a href="vlaggen/frankrijk.html">Frankrijk</a></li>
+        <li><a href="vlaggen/col.html">Colombia</a></li>
+        <li><a href="vlaggen/botswana.html">Botswana</a></li>
+        <li><a href="vlaggen/benin.html">Benin</a></li>
+        <li><a href="vlaggen/chile.html">Chile</a></li>
+        <li><a href="vlaggen/denemarken.html">Denemarken</a></li>
+        <li><a href="vlaggen/noorwegen.html">Noorwegen</a></li>
     </ul>
     <div class="container status"></div>
     </div>
@@ -66,6 +66,35 @@
         };
 
         console.log(bezoeker);
+
+        //naam in tabel beneden aan de pagina
+        let voornaamElement = document.querySelector('#voornaam');
+        voornaamElement.innerHTML = bezoeker.voornaam;
+        //achternaam in tabel 
+        let achternaamElement = document.querySelector('#achternaam')
+        achternaamElement.innerHTML = bezoeker.achternaam;
+        //leeftijd
+
+        // Als de leeftijd gelijk is aan 16 dan achtergrond oranje kleuren
+        if (bezoeker.leeftijd == 16) {
+            //hier achtergrond kleur oranje maken
+            document.querySelector("body").style.backgroundColor = 'orange';
+        }
+        // Als de leeftijd gelijk is aan 17 dan achtergrond oranje kleuren
+        if (bezoeker.leeftijd == 17) {
+            //hier achtergrond kleur blauw maken
+            document.querySelector("body").style.backgroundColor = 'lightblue';
+        }
+        // Als de leeftijd gelijk is aan 18 dan achtergrond goud kleuren
+        if (bezoeker.leeftijd == 18) {
+            //hier achtergrond kleur goud maken
+            document.querySelector("body").style.backgroundColor = 'gold';
+        }
+        // Als de leeftijd gelijk is aan 19 dan achtergrond groen kleuren
+        if (bezoeker.leeftijd == 19) {
+            document.querySelector("body").style.backgroundColor = 'green'
+        }
+    
         
     </script>
 
