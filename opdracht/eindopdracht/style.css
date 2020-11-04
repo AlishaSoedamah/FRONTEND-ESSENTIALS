@@ -30,6 +30,7 @@
 anything{
     background-color: hotpink;
 }
-.tableColors {
+table, th, td {
+    border-collapse: collapse;
     border: 1px solid black;
   }
